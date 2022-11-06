@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'TESLA';
+  src: URL('../TESLA.ttf') format('truetype');
+}
+* {
+  margin: 0 0;
+  padding: 0 0;
+
+}
+:root {
+  font-family: 'TESLA', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(23, 26, 32);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Old version of Firefox */
+  -ms-user-select: none; /* Internet Explorer or Edge */
+  user-select: none; /* All modern browsers */
+  overflow-x: hidden ;
+
+}
+
+h1 {
+  font-size: 5vh;
+  line-height: 1.1;
+  font-family: 'TESLA';
+  letter-spacing: 1vh;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  margin: 0 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+h1, h2, p, a {
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Old version of Firefox */
+    -ms-user-select: none; /* Internet Explorer or Edge */
+    user-select: none; /* All modern browsers */
+
+} 
+
+h2 {
+  font-size: 2.5vh;
+  letter-spacing: 0.3vh;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(53, 53, 53);
+  border-radius: 10vh;
+
+}
+
+::-webkit-scrollbar {
+  background: none;
+  width: 1vh;
+
+}
+
+.hover:hover {
+  background-color: #cacaca;
+  border: none;
+  border-radius: 1vh;
+}
+
+.hover {
+  transition: all 0.25s;
+  padding: 1vh 1vh;
+}
